@@ -134,13 +134,13 @@ public enum Display <: ToString {
     ScreenOffTimeout
     |
     @!APILevel[
-        since: "22",
+        since: "26.1.0",
         syscap: "SystemCapability.Applications.Settings.Core"
     ]
     AutoScreenBrightnessMode
     |
     @!APILevel[
-        since: "22",
+        since: "26.1.0",
         syscap: "SystemCapability.Applications.Settings.Core"
     ]
     ManualScreenBrightnessMode
